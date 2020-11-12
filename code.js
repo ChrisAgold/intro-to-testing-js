@@ -14,5 +14,6 @@ function helloWorld() {
 // }
 // Refractor the above function
 function sayHello(input) {
-    return "Hello, " + input;
+    return "Hello, " + input + "!";
 }
+
