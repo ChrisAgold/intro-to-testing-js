@@ -13,11 +13,17 @@ function helloWorld() {
 //     }
 // }
 // Refractor the above function
+// function sayHello(input) {
+//     return "Hello, " + input + "!";
+// }
+
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    return "Hello, World!";
 }
 
-
-
-
-
+var input = 5;
+function isFive(input) {
+    if (input === 5) {
+        return true
+    }
+}

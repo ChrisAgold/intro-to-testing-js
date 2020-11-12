@@ -21,10 +21,21 @@ describe('sayHello', function() {
     });
 });
 
-describe('sayHello("Pat")', function() {
-    it('should return a string "Hello, Pat!"', function() {
-        expect(sayHello("Pat")).toBe('Hello, Pat!');
-    });
+// describe('sayHello("Pat")', function() {
+//     it('should return a string "Hello, Pat!"', function() {
+//         expect(sayHello("Pat")).toBe('Hello, Pat!');
+//     });
+// });
+// Exercise 8
+describe('sayHello("Hello")', function() {
+     it('should return a string "Hello, World!"', function() {
+         expect(sayHello()).toBe('Hello, World!');
+     });
+ });
+
+// Exercise 10
+describe ('isFive("true")', function() {
+    it('should return "true"', function() {
+        expect(isFive()).toBe('true');
+    })
 });
-
-
